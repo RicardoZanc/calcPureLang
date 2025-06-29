@@ -3,9 +3,29 @@
 }
 
 #resultado {
-    border: solid black 2px
+    width: fit-content;
 }
 
 #botoes-container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
 }
+
+
+
+.botoes {
+    padding-inline: 12px;
+}
+
+#limpar {
+    grid-column: 4;
+    grid-row: 2/6;
+}
+
+#n0 {
+    grid-column: 1/4;
+}
+
+
+
