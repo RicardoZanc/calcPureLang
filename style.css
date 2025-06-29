@@ -1,0 +1,11 @@
+#calculadora {
+    border: solid black 2px
+}
+
+#resultado {
+    border: solid black 2px
+}
+
+#botoes-container {
+    display: grid;
+}
